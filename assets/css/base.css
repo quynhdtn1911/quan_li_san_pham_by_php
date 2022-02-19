@@ -1,0 +1,117 @@
+:root{
+    --text-color: #000000;
+    --white-color: #fff;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Alegreya', serif;
+    font-family: 'Courgette', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Zen Antique Soft', serif;
+}
+
+.bg-black{
+    background: #000;
+}
+
+.content_session{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #header_nav */
+#header_nav{
+    z-index: 1000;
+}
+
+/* #header_user */
+#header_user{
+    font-size: 1.4rem;
+    background: #000;
+}
+
+#header_user a{
+    font-size: 1.4rem;
+}
+
+.nav-icon{
+    width: 16px;
+    height: 16px;
+}
+
+.dropdown .dropdown-menu{
+    right: 0;
+    left: auto;
+}
+/* #header search */
+#header_search{
+    width: 100vw;
+    height: 200px;
+}
+
+#header_search input{
+    font-size: 1.5rem;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+}
+
+#header_search .icon-search{
+    top: 50%;
+    right: 32px;
+    transform: translateY(-50%);
+    
+}
+
+#header_search img{
+    width: 20px;
+    height: 20px;
+}
+
+/* table */
+.btn-add{
+    font-size: 1.5rem;
+}
+
+table .btn{
+    font-size: 1.5rem;
+}
+
+table .btn + .btn{
+    margin-left: 16px;
+}
+
+table{
+    margin-top: 16px;
+    font-size: 1.5rem;
+}
+
+table th,
+table td{
+    text-align: center;
+}
+
+table td img{
+    width: 100px;
+    height: 100px;
+}
+
+/* pagination */
+.page-item a{
+    color: #000;
+    font-size: 1.5rem;
+}
+
+/* form */
+.message-error{
+    margin-top: 16px;
+    font-size: 1.5rem;
+    color: red;
+    text-align: center;
+}

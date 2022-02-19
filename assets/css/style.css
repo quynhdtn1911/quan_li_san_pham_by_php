@@ -1,0 +1,332 @@
+/* #header_nav */
+#header_menu{
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 1.6rem;
+}
+
+.logo img{
+    width: 25px;
+    height: 25px;
+}
+
+.logo{
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.overlay{
+    background: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/*  */
+.content_session{
+    padding: 80px 0 48px 0;
+}
+
+
+.content_session.bg-black .menu-item{
+    background: #000;
+}
+
+.content_session.bg-black .menu-item_content{
+    background: #fff;
+}
+
+.title_content{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sub_title_content{
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    margin: 16px 0 24px 0;
+}
+
+.menu-buttons a{
+    border-radius: 24px;
+    padding: 6px 16px;
+    margin: 0 4px;
+    font-size: 1.6rem;
+}
+
+.food_img{
+    width: 100%;
+}
+
+.food_img > img{
+    width: 100%;
+    height: 230px;
+}
+
+.menu-list{
+    margin-top: 24px;
+}
+
+.menu-item_content{
+    margin: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.food_img_abs{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    transition: ease 0.5s;
+    opacity: 0;
+}
+
+.food_img_abs a{
+    font-size: 1.6rem;
+}
+
+.food_img:hover .food_img_abs{
+    opacity: 1;
+    height: 100%;
+}
+
+.food_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food_name{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.food_price_current{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.food_price_old{
+    text-align: right;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+.page-link{
+    font-size: 2rem;
+}
+
+/* about */
+.chef_name,
+.chef_maxim{
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.chef_name{
+    font-size: 2.4rem;
+}
+
+.chef_maxim{
+    font-size: 1.8rem;
+}
+
+
+#comment .menu-item_content{
+    padding: 12px 0 24px 0;
+}
+
+.customer_img{
+    margin-top: 12px;
+}
+
+.customer_img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.customer_comment{
+    margin: 24px 32px 0 32px;
+    font-size: 1.5rem;
+}
+
+#contact{
+    background: url('../images/restaurant.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+#contact .overlay{
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.contact_time,
+.contact_social,
+.contact_comment{
+    font-size: 1.5rem;
+}
+
+.form_regist input,
+.form_regist button{
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    font-size: 1.5rem;
+}
+
+.form_regist input{
+    color: rgba(0, 0, 0, 0.8);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.form_regist button{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.contact_content{
+    margin-top: 48px;
+}
+
+.contact_time_item{
+    margin-top: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.6);
+}
+
+.contact_social_item img{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.contact_social_item{
+    margin-top: 24px;
+}
+
+.contact_comment .form-group input{
+    width: 46%;
+}
+
+.contact_comment input,
+.contact_comment textarea{
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.8);
+    padding: 6px 8px;
+    font-size: 1.5rem;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+.contact_comment input::placeholder,
+.contact_comment textarea::placeholder{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.btn_send{
+    font-size: 1.5rem;
+}
+
+.btn.active{
+    background: red;
+}
+
+/* #login */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: scale(0.2);
+    }to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+#login{
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1001;
+    /* opacity: 0; */
+    animation: fadeIn 0.3s linear;
+    /* transform: scale(0.2); */
+    display: none;
+}
+
+#login.active{
+    /* transform: scale(1); */
+    /* opacity: 1; */
+    display: flex;
+}
+
+.form_login{
+    background: #fff;
+    min-height: 350px;
+    border-radius: 6px;
+    padding: 32px 16px;
+}
+
+.form-group{
+    margin: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group label{
+    font-size: 1.6rem;
+    min-width: 120px;
+    font-weight: 500;
+}
+
+.form-group input{
+    flex: 1;
+}
+.form-group input,
+.form-group a{
+    font-size: 1.6rem;
+    padding: 6px 8px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-submit{
+    margin-top: 48px;
+}
+
+.form-submit input[type="submit"],
+.form-submit a{
+    border: none;
+    flex: 1;
+}
+
+.form-submit a{
+    margin-right: 24px;
+}
+.form_header{
+    color: red;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+
+
+

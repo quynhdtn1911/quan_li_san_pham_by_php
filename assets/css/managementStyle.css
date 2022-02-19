@@ -1,0 +1,22 @@
+#header_search{
+    padding-top: 128px;
+}
+
+#header_search input{
+    border: 1px solid #000;
+}
+
+.content_session{
+    padding: 48px 0;
+}
+
+.title{
+    font-size: 2.6rem;
+    margin-bottom: 32px;
+}
+
+/* table */
+table td img{
+    width: 64px;
+    height: 64px;
+}

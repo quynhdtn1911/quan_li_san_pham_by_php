@@ -1,0 +1,48 @@
+.content_session{
+    padding-top: 96px;
+}
+
+.title{
+    font-size: 2.6rem;
+    text-align: center;
+    margin: 32px 0;
+}
+
+.form-group{
+    margin-top: 8px;
+}
+
+.form-group a,
+.form-group input,
+.form-group textarea,
+.form-group select{
+    font-size: 1.5rem;
+}
+
+.form-group label{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.form-group input[type="text"],
+.form-group textarea,
+.form-group select{
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 6px 16px;
+    outline: none;
+}
+
+.form-group input[type="submit"],
+.form-group a{
+    padding: 8px 16px;
+}
+
+.form-group input[type="submit"]{
+    margin-left: 16px;
+}
+
+.message-error{
+    text-align: center;
+    color: red;
+}
